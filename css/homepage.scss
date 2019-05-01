@@ -1,0 +1,20 @@
+/* My Variables Of Css My Page */
+@import 'sass/helpers/variables';
+/* My Functions and mixins in My Page */
+@import 'sass/helpers/mixins';
+/* My Header Page */
+
+
+@import 'sass/layout/header';
+@import 'sass/layout/grid';
+@import 'sass/components/headings';
+
+
+/* My Home Page */
+@import 'sass/pages/homepage';
+@import 'sass/pages/globalpage';
+ 
+/* My Footer Page */
+@import "sass/layout/footer";
+
+

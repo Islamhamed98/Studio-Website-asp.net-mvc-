@@ -1,0 +1,20 @@
+/*
+**  @media ( max-width: 767px )  // The Moment That Width of page Reached For 767px [' Mobile Size ']
+**  @media ( min-width: 768px )  // From 768px To Upper 
+**  @media ( min-width: 992px )  // Medium Size Screens
+**  @media ( min-width: 1200px ) // Large Screen 
+*/
+
+$maxMobileWidth: "(max-width: 767px)";
+$maxSmallScreenWidth: "(max-width: 991px)";
+$minSmallScreenWidth: "(max-width: 768px)";
+
+
+$red-color: #e2494c;
+$grey-color: #9c9c9c;
+
+$float-left: left;
+$float-right: right;
+
+ 
+

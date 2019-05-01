@@ -1,0 +1,163 @@
+/* My Variables Of Css My Page */
+/*
+**  @media ( max-width: 767px )  // The Moment That Width of page Reached For 767px [' Mobile Size ']
+**  @media ( min-width: 768px )  // From 768px To Upper 
+**  @media ( min-width: 992px )  // Medium Size Screens
+**  @media ( min-width: 1200px ) // Large Screen 
+*/
+/* My Functions and mixins in My Page */
+/*
+** Overlay Mixin 
+** Overlay Main Properties 
+*/
+/*
+**
+** Prefex Mixin  
+** Auto Add Prefixes To Properties  
+** 
+*/
+/* My Header Page */
+.header {
+  overflow: hidden;
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 30px; }
+.header .logo {
+  width: 30%;
+  float: left;
+  overflow: hidden; }
+.header .logo h1 {
+  margin-bottom: 0; }
+.header .logo p {
+  color: #777; }
+.header .navbar {
+  width: 70%;
+  float: left;
+  background-color: #e2494c;
+  border-radius: 20px;
+  margin-top: 30px;
+  height: 50px; }
+.header .navbar li {
+  width: 15%;
+  font-size: 15px;
+  float: left;
+  text-align: center;
+  margin: 17px auto;
+  color: #FFF;
+  margin-left: 25px; }
+.header .navbar li a {
+  text-decoration: none;
+  color: #FFF; }
+.header .navbar li a:hover {
+  color: #DDD; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative; }
+
+.head-border {
+  position: relative; }
+.head-border h2 {
+  text-align: center;
+  background-color: #e2494c;
+  width: 400px;
+  padding: 15px;
+  border-radius: 15px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 19px;
+  margin: 60px auto; }
+.head-border h2:before {
+  content: '';
+  width: 100%;
+  background-color: #9c9c9c;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 1.5px;
+  z-index: -1; }
+.head-border p {
+  color: #777; }
+
+/* My Home Page */
+/* Start Slider */
+.slider {
+  padding-top: 50px; }
+.slider q {
+  display: block;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: #555;
+  letter-spacing: .4px;
+  text-align: center;
+  width: 900px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  line-height: 2; }
+.slider img {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+  padding-bottom: 20px; }
+.slider .bullets {
+  text-align: center; }
+.slider .bullets li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #9c9c9c;
+  border-radius: 50%;
+  border: 3px solid #CCC; }
+.slider .bullets li.active {
+  background-color: #000;
+  border: 3px solid #CCC; }
+
+/* End Slider */
+/* Start Services */
+.services .service-box {
+  float: left;
+  width: 33.3333333333%;
+  padding-top: 15px; }
+.services .service-box:not(:last-of-type) {
+  padding-right: 20px; }
+.services .service-box h3 {
+  color: #666;
+  margin-left: 5px; }
+.services .service-box h3 i {
+  margin-right: 5px;
+  margin-left: 0;
+  color: #777;
+  font-size: 20px; }
+.services .service-box p {
+  color: #9c9c9c;
+  line-height: 1.9;
+  font-size: 14px;
+  padding: 20px 0; }
+.services .service-box a {
+  color: #e2494c;
+  display: block; }
+
+/* End Services */
+body {
+  background-color: #F6F6F6;
+  height: 4000px;
+  font-family: sans-serif;
+  font-size: 16px; }
+
+ul, ol {
+  list-style: none;
+  padding: 0; }
+
+/* My Footer Page */
+
+/*# sourceMappingURL=homepage.css.map */

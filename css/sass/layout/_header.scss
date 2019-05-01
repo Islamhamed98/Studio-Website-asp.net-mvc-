@@ -1,0 +1,48 @@
+.header {
+    overflow: hidden;
+    border-bottom:1px solid #CCC;
+    margin-bottom:30px;
+    
+    .logo {
+     width:30%;
+     float:$float-left;
+     overflow: hidden;
+     h1 {
+        margin-bottom: 0;
+      }
+      p {
+        color:#777;
+      }
+    }
+    .navbar { 
+      width:70%;
+      float:$float-left;
+      background-color:$red-color;
+      border-radius:20px; 
+      margin-top:30px;
+      height:50px;
+      
+      li { 
+        width:15%;
+        font-size:15px;
+        float:$float-left;
+        text-align:center;
+        margin:17px auto;
+        color:#FFF;
+        margin-left:25px;
+        a { 
+            text-decoration:none;
+            color:#FFF;
+            &:hover { 
+                color:#DDD;
+            }
+        }
+       
+
+    }
+     
+    }
+  
+  
+    
+}
